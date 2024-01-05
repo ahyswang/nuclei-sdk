@@ -1,0 +1,1 @@
+make CORE=n307fd  ARCH_EXT=xxldsp run_qemu
