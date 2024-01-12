@@ -1,4 +1,4 @@
-NUCLEI_TOOL_ROOT=~/NucleiStudio/toolchain
+NUCLEI_TOOL_ROOT=d:/Software/Nuclei/
 # Create your setup_config.sh
 # and define NUCLEI_TOOL_ROOT like below
 # NUCLEI_TOOL_ROOT=~/NucleiStudio_IDE_202310-lin64/NucleiStudio/toolchain

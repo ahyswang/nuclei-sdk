@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            //下面的路径必须是绝对路径
+            "preLaunchTask": "build",
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/application/baremetal/helloworld/helloworld.elf",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/application/baremetal/helloworld/",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "d:/Software/Nuclei/gcc/bin/riscv64-unknown-elf-gdb.exe",
+            "miDebuggerArgs": "-ex \"file e:/git/nuclei-sdk/application/baremetal/helloworld/helloworld.elf\" -ex \"set remotetimeout 240\" -ex \"target extended-remote localhost:3333\" -ex \"load\" -ex \"b main\" -ex \"c\"",
+            "setupCommands": [
+            ]
+        }
+    ]
+}
