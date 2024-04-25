@@ -29,6 +29,11 @@
     },
     "files.associations": {
         "nuclei_sdk_soc.h": "c",
-        "evalsoc.h": "c"
+        "evalsoc.h": "c",
+        "riscv_math.h": "c",
+        "none.h": "c",
+        "riscv_math_types.h": "c",
+        "riscv_math_types_f16.h": "c",
+        "interpolation_functions.h": "c"
     }
 }

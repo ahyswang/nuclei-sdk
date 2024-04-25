@@ -1,0 +1,1 @@
+make CORE=n307fd  ARCH_EXT=_zve32f_zba_zbb_zbc_zbs_xxldspn1x run_qemu

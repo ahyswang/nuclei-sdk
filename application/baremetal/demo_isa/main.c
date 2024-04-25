@@ -487,6 +487,7 @@ asm volatile(
     }
 }
 
+extern void test_vector_ins();
 
 int main(void)
 {
@@ -501,5 +502,6 @@ int main(void)
     test_isa_inter_compution();
     test_isa_control_transfer();
     test_isa_misc();
+    test_vector_ins();
     return 0;
 }
